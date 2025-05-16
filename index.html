@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Basil M K, an aspiring developer and tech enthusiast.">
+    <meta name="author" content="Basil M K">
+    <title>Basil M K - Portfolio</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=1">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=1">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=1">
+    <link rel="manifest" href="images/site.webmanifest">    <!-- <link rel="manifest" href="images/site.webmanifest"> -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Vendor Scripts -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/moveto@1.8.2/dist/moveto.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body id="top">
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.svg" alt="Basil M K Logo"></a>
+            </div>
+            <nav class="nav">
+                <div class="close-menu">✕</div>
+                <ul>
+                    <li><a href="#about" class="smoothscroll">About</a></li>
+                    <li><a href="#projects" class="smoothscroll">Projects</a></li>
+                    <li><a href="#skills" class="smoothscroll">Skills</a></li>
+                    <li><a href="#education" class="smoothscroll">Education</a></li>
+                    <li><a href="#achievements" class="smoothscroll">Achievements</a></li>
+                    <li><a href="#certifications" class="smoothscroll">Certifications</a></li>
+                    <li><a href="#contact" class="smoothscroll">Contact</a></li>
+                </ul>
+                <div class="nav-btn">
+                    <a href="#contact" class="btn btn--primary">Let's Collaborate</a>
+                </div>
+            </nav>
+            <div class="menu-toggle">☰</div>
+        </div>
+    </header>
+
+    <!-- Intro -->
+    <section id="intro" class="intro">
+        <div id="particles-js"></div>
+        <div class="container">
+            <div class="intro-content" data-aos="zoom-in" data-aos-duration="1000">
+                <img src="images/DSC04007.JPG" alt="Basil M K" class="profile-img">
+                <h1 data-aos="fade-up" data-aos-delay="200">Hi, I'm <span>Basil M K</span></h1>
+                <p class="lead" data-aos="fade-up" data-aos-delay="400">Aspiring Developer | Creating Scalable & User-Friendly Web Solutions</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up">About Me</h2>
+            <div class="section-content section-card" data-aos="slide-up" data-aos-delay="100">
+                <p>I’m Basil M K, a passionate fresher with a BCA and MCA, stepping into the world of software development. I specialize in the MERN stack and enjoy building user-friendly web applications with clean code and creative design. I'm driven by curiosity, a love for learning, and a commitment to creating meaningful digital experiences.</p>
+                <div class="section-btn">
+                    <a href="about.html" class="btn btn--stroke">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up">My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card" data-aos="fade-up">
+                    <img src="images/project1.png" alt="Place-Pro" class="project-img">
+                    <h3>Place-Pro (MERN Stack)</h3>
+                    <p>A placement cell platform with AI mock interviews and role-based dashboards.</p>
+                    <div class="card-btn">
+                        <a href="projects.html" class="btn btn--stroke">Details</a>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="images/project_3.jpg" alt="Page Turner" class="project-img">
+                    <h3>Page Turner (PHP)</h3>
+                    <p>An online book reading and publishing platform with secure authentication.</p>
+                    <div class="card-btn">
+                        <a href="projects.html" class="btn btn--stroke">Details</a>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="images/project.jpg" alt="E-Commerce Platform" class="project-img">
+                    <h3>E-Commerce Platform (MERN)</h3>
+                    <p>A fully-featured online store with payment integration and user profiles.</p>
+                    <div class="card-btn">
+                        <a href="projects.html" class="btn btn--stroke">Details</a>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <img src="images/project_2.jpg" alt="Agro Pesticide Management System" class="project-img">
+                    <h3>Agro Pesticide Management System (PHP)</h3>
+                    <p>A web-based system for managing agricultural pesticide data.</p>
+                    <div class="card-btn">
+                        <a href="projects.html" class="btn btn--stroke">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="section-btn" data-aos="zoom-in">
+                <a href="projects.html" class="btn btn--primary u-fullwidth">See All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up">My Skills</h2>
+            <h3 data-aos="fade-up" data-aos-delay="100">Soft Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-item" data-aos="zoom-in">
+                    <span class="skill-icon">🧠</span>
+                    <p>Problem-Solving</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="100">
+                    <span class="skill-icon">💻</span>
+                    <p>Programming</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="200">
+                    <span class="skill-icon">🤝</span>
+                    <p>Teamwork</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="300">
+                    <span class="skill-icon">🔄</span>
+                    <p>Adaptability</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="400">
+                    <span class="skill-icon">🗣️</span>
+                    <p>Communication Skills</p>
+                </div>
+            </div>
+            <h3 data-aos="fade-up" data-aos-delay="100">Hard Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-item" data-aos="zoom-in">
+                    <span class="skill-icon">🐍</span>
+                    <p>Python</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="100">
+                    <span class="skill-icon">⚙️</span>
+                    <p>Django</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="200">
+                    <span class="skill-icon">📱</span>
+                    <p>Flutter</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="300">
+                    <span class="skill-icon">⚛️</span>
+                    <p>React.js</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="400">
+                    <span class="skill-icon">🟢</span>
+                    <p>Node.js</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="500">
+                    <span class="skill-icon">⚡</span>
+                    <p>Express.js</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="600">
+                    <span class="skill-icon">🍃</span>
+                    <p>MongoDB</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="700">
+                    <span class="skill-icon">🐘</span>
+                    <p>PHP</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="800">
+                    <span class="skill-icon">☕</span>
+                    <p>Java</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="900">
+                    <span class="skill-icon">🗄️</span>
+                    <p>DBMS</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="1000">
+                    <span class="skill-icon">🛢️</span>
+                    <p>MySQL</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="1100">
+                    <span class="skill-icon">🎨</span>
+                    <p>CSS</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="1200">
+                    <span class="skill-icon">📜</span>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="1300">
+                    <span class="skill-icon">🌐</span>
+                    <p>RESTful APIs</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="1400">
+                    <span class="skill-icon">➕</span>
+                    <p>C++</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="1500">
+                    <span class="skill-icon">🅲</span>
+                    <p>C</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up">Education</h2>
+            <div class="section-content section-card" data-aos="slide-up" data-aos-delay="100">
+                <p>BCA & MCA Graduate with a solid foundation in computer science principles, data structures, and software engineering. Enriched by hands-on experience in full-stack development, including academic and personal projects that span web technologies, backend systems, and database management. Throughout the course, I cultivated strong problem-solving skills, collaborated on team projects, and explored areas like AI, cloud computing, and cybersecurity through electives and workshops.</p>
+                <div class="section-btn">
+                    <a href="education.html" class="btn btn--stroke">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements -->
+    <section id="achievements" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up">Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card" data-aos="zoom-in" data-aos-delay="100">
+                    <h3>Research Paper</h3>
+                    <p>Presented "Enhancing Data Privacy in Federated Learning" at the 2nd National Student Conference, SCMS School of Technology and Management, Muttom, Aluva (2025).</p>
+                </div>
+                <div class="achievement-card" data-aos="zoom-in" data-aos-delay="200">
+                    <h3>Badminton Athlete</h3>
+                    <p>Region-level player representing Navodaya Vidyalaya Samiti, Hyderabad Region (Class 11).</p>
+                </div>
+                <div class="achievement-card" data-aos="zoom-in" data-aos-delay="300">
+                    <h3>Career Orientation</h3>
+                    <p>Completed a 5-day intensive program in Data Science & Analytics at Technovalley Software India Pvt. Ltd.</p>
+                </div>
+                <div class="achievement-card" data-aos="zoom-in" data-aos-delay="400">
+                    <h3>NSS Volunteer</h3>
+                    <p>Actively engaged in community service initiatives during graduation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up">Certifications</h2>
+            <div class="section-content section-card" data-aos="slide-up" data-aos-delay="100">
+                <p>Certified in Web Development and Data Science technologies, demonstrating my dedication to continuous learning and proficiency in modern tools and frameworks. These certifications highlight my ability to adapt to evolving tech trends and apply industry-relevant skills in real-world projects.</p>
+                <div class="section-btn">
+                    <a href="certifications.html" class="btn btn--stroke">View Certifications</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up">Get in Touch</h2>
+            <div class="section-content section-card" data-aos="slide-up" data-aos-delay="100">
+                <p>I'm always open to new opportunities, collaborations, or simply a good tech chat! Whether you're looking to build something together or want to discuss ideas, feel free to reach out.</p>
+                <div class="section-btn">
+                    <a href="contact.html" class="btn btn--primary u-fullwidth">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>About Basil</h3>
+                    <p>A fresher passionate about coding impactful web and mobile solutions, eager to grow in tech.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Get updates on my latest projects.</p>
+                    <form id="mc-form" class="mc-form">
+                        <input type="email" name="EMAIL" id="mce-EMAIL" placeholder="Your Email" required>
+                        <input type="submit" value="Subscribe" class="btn btn--primary">
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <ul class="social-links">
+                    <li><a href="https://x.com/bmk1188"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a></li>
+                    <li><a href="https://www.instagram.com/b.asii_l"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.148 3.227-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.148-4.771-1.691-4.919-4.919-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.332.014 7.052.072 2.951.23.231 2.951.073 7.052.014 8.332 0 8.741 0 12c0 3.259.014 3.668.072 4.948.158 4.101 2.879 6.822 6.98 6.98 1.28.058 1.689.072 4.948.072s3.668-.014 4.948-.072c4.101-.158 6.822-2.879 6.98-6.98.058-1.28.072-1.689.072-4.948s-.014-3.668-.072-4.948c-.158-4.101-2.879-6.822-6.98-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100-2.88 1.44 1.44 0 000 2.88z"/></svg></a></li>
+                    <li><a href="https://www.linkedin.com/in/basil-m-k-7381aa291"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h14zm-9.5 15.5V12H7v6.5h2.5zm0-8.5a1.25 1.25 0 110-2.5 1.25 1.25 0 010 2.5zm2.5 8.5h2.5v-3.5c0-2 3-1.9 3 0V18.5H20V14c0-3.6-4-3.4-4.5-1.5V18.5z"/></svg></a></li>
+                    <li><a href="https://github.com/basil-1188"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 17.69 3.633 17.296 3.633 17.296c-1.146-.768.084-.761.084-.761 1.268.089 1.936 1.304 1.936 1.304 1.126 1.93 2.957 1.373 3.68 1.05.114-.818.443-1.373.805-1.686-2.815-.319-5.776-1.412-5.776-6.286 0-1.39.496-2.526 1.31-3.416-.132-.324-.568-1.623.124-3.378 0 0 1.073-.345 3.51 1.305 1.018-.283 2.11-.424 3.195-.428 1.085.004 2.177.145 3.195.428 2.436-1.65 3.508-1.305 3.508-1.305.694 1.755.258 3.054.126 3.378.816.89 1.31 2.026 1.31 3.416 0 4.885-2.965 5.964-5.791 6.28.455.395.862 1.178.862 2.374 0 1.716-.015 3.103-.015 3.523 0 .321.217.694.825.577C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a></li>
+                </ul>
+                <p>© 2025 Basil M K. Built with Passion.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Button -->
+    <button class="scroll-btn" aria-label="Scroll to top or bottom">
+        <i class="fas fa-chevron-down"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
